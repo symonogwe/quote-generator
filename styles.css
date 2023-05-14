@@ -39,13 +39,11 @@ body {
 }
 
 .quote-div {
-    border: 5px solid yellow;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .name-div {
-   border: 5px solid red;
    font-size: medium;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
