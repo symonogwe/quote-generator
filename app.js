@@ -31,14 +31,12 @@ function randomQuote() {
     //get random quote from quotes array
     const randomIndex = Math.floor(Math.random() * quotes.length);
     const quote = quotes[randomIndex];
-    //create quote div
-    const quoteText = document.createElement("div");
-    quoteText.textContent = quote.quote;
-    container.insertBefore(quoteText, container.lastElementChild);
-    //create name div
-    const name = document.createElement("div");
-    name.textContent = quote.name;
-    container.insertBefore(name, container.lastElementChild);
+    //insert quote on quote div
+    const quoteDiv = document.querySelector(".quote-div");
+    quoteDiv.textContent = quote.quote;
+    //insert name in name div
+    const nameDiv = document.querySelector(".name-div");
+    nameDiv.textContent = quote.name;
 }
 
 const button = document.querySelector(".button");
