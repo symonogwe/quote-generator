@@ -4,7 +4,8 @@ html, body {
 }
 
 body {
-    background-color: darkgrey;
+    height: 100vh;
+    background: url(images/pexels-henry-&-co-1939485.jpg) no-repeat center center/ cover;
 }
 
 .title {
