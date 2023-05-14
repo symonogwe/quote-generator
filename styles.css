@@ -1,0 +1,35 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.title {
+    text-align: center;
+    border: 4px solid;
+    margin: auto;
+    width: 50%;
+    margin-top: 80px;
+    background-color: aquamarine;
+}
+
+.container{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+    height: 200px;background-color: antiquewhite;
+
+}
+
+.button {
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    background-color: aquamarine;
+}
+
